@@ -9,9 +9,7 @@ connectDatabase();
 //   api_secret: process.env.CLOUDINARY_API_SECRET,
 // });
 cloudinary.config({ 
-  cloud_name: 'dfmbptsav', 
-  api_key: '258815827892968', 
-  api_secret: 'vOAowwQNwBG1KL-NxHPH1RnB3hw' 
+  //enter credentials to test, i have deleted it
 });
 
 app.listen(process.env.PORT, () => {
